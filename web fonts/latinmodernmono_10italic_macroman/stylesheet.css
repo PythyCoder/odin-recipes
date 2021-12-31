@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'latin_modern_mono10_italic';
+    src: url('lmmono10-italic-webfont.eot');
+    src: url('lmmono10-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('lmmono10-italic-webfont.woff2') format('woff2'),
+         url('lmmono10-italic-webfont.woff') format('woff'),
+         url('lmmono10-italic-webfont.ttf') format('truetype'),
+         url('lmmono10-italic-webfont.svg#latin_modern_mono10_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    
+
+}
+
+p {
+    font-family: latin_modern_mono10_italic;
+    font-weight: normal;
+    margin-top: 0px;
+    
+}
+
+.main_header {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    inline-size: 120px;
+    border-bottom: 0px;
+
+}
+.recipe1 {
+    inline-size: 250px;
+    height: 200px;
+    
+}
+
+div.polaroid_Ratatouille {
+    display: flexbox;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    inline-size: 250px;
+    
+   
+}
+
+div.container {
+    text-align: center;
+    padding: 10px 20px;
+        
+}
+
+
+
+
+
+  
+ 
