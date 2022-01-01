@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'latin_modern_mono10_italic';
+    src: url('web fonts/latinmodernmono_10italic_macroman/weblmmono10-italic-webfont.eot');
+    src: url('web fonts/latinmodernmono_10italic_macroman/lmmono10-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('web fonts/latinmodernmono_10italic_macroman/lmmono10-italic-webfont.woff2') format('woff2'),
+         url('web fonts/latinmodernmono_10italic_macroman/lmmono10-italic-webfont.woff') format('woff'),
+         url('web fonts/latinmodernmono_10italic_macroman/lmmono10-italic-webfont.ttf') format('truetype'),
+         url('web fonts/latinmodernmono_10italic_macroman/lmmono10-italic-webfont.svg#latin_modern_mono10_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    background-image: url('Images/Background1.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+
+}
+
+.header_class {
+    font-family: latin_modern_mono10_italic;
+    font-weight: normal;
+    margin-top: 0px;
+    
+}
+
+.main_header {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    inline-size: 120px;
+    border-bottom: 0px;
+
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;
+    margin: auto;
+    justify-content: space-between;
+
+}
+
+figure {
+    width: 200px;
+    margin: 15px 0;
+    border: 2px solid #777;
+    background-color: white;
+
+}
+figure img {
+    width: 100%;
+    height: 160px;
+    
+}
+figure figcaption {
+    text-align: center;
+    padding: 8px 5px;
+    font-family: latin_modern_mono10_italic;
+    
+   
+}
+
+figure:hover {
+    transform: scale(1.2); 
+  }
+
+
+  
+ 
