@@ -21,14 +21,14 @@ body{
 
 }
 
-.header_class {
+.header_font {
     font-family: latin_modern_mono10_italic;
     font-weight: normal;
     margin-top: 0px;
     
 }
 
-.main_header {
+.main_logo {
     display:block;
     margin-left: auto;
     margin-right: auto;
@@ -38,7 +38,7 @@ body{
 
 }
 
-.gallery {
+.grid {
     display: flex;
     flex-wrap: wrap;
     width: 1070px;
@@ -87,6 +87,8 @@ figure:hover {
     flex: wrap;
     width: auto;
     height:auto;
+    border:solid white;
+    border-width: 2px;
 }
 
 .side_box {
@@ -96,9 +98,33 @@ figure:hover {
     height: auto;
     border:solid white;
     border-width: 1px;
-    margin: 15px 15px;
-    margin-top: 0;
-    padding: 30px 30px;
+    margin: 20px 15px;
+    padding: 20px 30px;
     background-color: rgba(0, 0, 0, 0.6);
+
+}
+
+.img_container {
+    display: flexbox;
+    flex-wrap: wrap;
+    height:fit-content;
+    margin: 20px 15px;
+    border:solid white;
+    border-width: 1px;
+}
+
+.sidetext_container {
+    display: flexbox;
+    flex-wrap: wrap;
+    width: fit-content;
+    height: 459px;
+    margin: 20px 15px;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    border:solid white;
+    border-width: 1px;
+
+    
+   
 
 }
