@@ -117,12 +117,15 @@ figure:hover {
     display: flexbox;
     flex-wrap: wrap;
     width: fit-content;
-    height: 459px;
+    height: auto;
     margin: 20px 15px;
     background-color: rgba(0, 0, 0, 0.6);
-    text-align: center;
+    text-align:center;
     border:solid white;
     border-width: 1px;
+    padding: 30px 50px;
+
+    
 
     
    
