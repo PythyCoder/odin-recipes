@@ -80,6 +80,7 @@ figure:hover {
     font-size: 30px; color: aliceblue; 
     font-weight: 100;
     text-shadow: black;
+    max-width: 100%;
 }
 
 .main_box {
@@ -89,6 +90,7 @@ figure:hover {
     height:auto;
     border:solid white;
     border-width: 3px;
+    max-width: 100%;
 }
 
 .side_box {
@@ -101,6 +103,7 @@ figure:hover {
     margin: 20px 15px;
     padding: 20px 30px;
     background-color: rgba(0, 0, 0, 0.6);
+    max-width: 100%;
 
 }
 
@@ -111,6 +114,7 @@ figure:hover {
     margin: 20px 15px;
     border:solid white;
     border-width: 1px;
+    max-width: 100%;
 }
 
 .sidetext_container {
@@ -124,6 +128,7 @@ figure:hover {
     border:solid white;
     border-width: 1px;
     padding: 30px 50px;
+    max-width: 100%;
 
     
 
